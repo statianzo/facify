@@ -4,7 +4,8 @@
   "description": "Node style callbacks to React components",
   "main": "index.js",
   "scripts": {
-    "test": "babel-node --presets react,es2015 src/test.js"
+    "test": "babel-node --presets react,es2015 src/test.js",
+    "prepublish": "babel --presets react,es2015 src/index.js --out-file index.js"
   },
   "keywords": [],
   "author": "statianzo",
