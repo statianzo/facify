@@ -4,7 +4,7 @@
   "description": "Node style callbacks to React components",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel-node --presets react,es2015 src/test.js"
   },
   "keywords": [],
   "author": "statianzo",
